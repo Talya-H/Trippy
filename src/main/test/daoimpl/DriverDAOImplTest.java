@@ -31,7 +31,7 @@ class DriverDAOImplTest {
         DriverDAO daoD = new DriverDAOImpl();
 
         Driver driver2 = new Driver("jojo", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
-        Driver driver3 = new Driver("jojo", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
+        Driver driver3 = new Driver("john", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
 
         daoD.insert(driver2);
         daoD.insert(driver3);
