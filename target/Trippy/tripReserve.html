@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trip Reservation</title>
+</head>
+<body>
+<form action="tripRegister" method="post">
+    <div class="container">
+        <h1>Book you trip</h1>
+        <p>Please fill in this form to book your trip.</p>
+        <!--google maps plug in? -->
+        <label><b>Pick-up Address</b></label>
+        <input type="text" placeholder="Enter address" name="pickup" required>
+
+        <label><b>Drop-off Address</b></label>
+        <input type="text" placeholder="Enter address" name="drop" required>
+
+        <!--pick up and drop must not be the same-->
+        <label><b>Time</b></label>
+        <input type="time" placeholder="Enter pick-up time" name="time" required>
+
+        <label><b>Date</b></label>
+        <input type="datetime-local" placeholder="Enter date" name="date" required>
+
+        <div class="confirm">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Book</button>
+            <!--            confirmation page w/ message for email confirmation-->
+        </div>
+
+    </div>
+</form>
+</body>
+</html>

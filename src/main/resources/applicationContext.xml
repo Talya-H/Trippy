@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id = "driver1" class="users.Driver">
+        <constructor-arg value ="driver1"/>
+        <constructor-arg value ="test"/>
+        <constructor-arg value ="test"/>
+        <constructor-arg value ="test"/>
+        <constructor-arg value ="123456"/>
+        <constructor-arg value ="hackett.talya@gmail.com"/>
+        <constructor-arg value ="test"/>
+    </bean>
+
+    <bean id = "passenger1" class="users.Passenger">
+    <constructor-arg value ="passenger1"/>
+    <constructor-arg value ="test"/>
+    <constructor-arg value ="test"/>
+    <constructor-arg value ="test"/>
+    <constructor-arg value ="123456"/>
+    <constructor-arg value ="hackett.talya@gmail.com"/>
+    <constructor-arg value ="test"/>
+</bean>
+
+    <bean id = "trip1" class="reservation.Trip">
+        <constructor-arg value ="trip1"/>
+        <constructor-arg value ="test"/>
+        <constructor-arg value ="test"/>
+        <constructor-arg value ="test"/>
+    </bean>
+
+<!--    String username, String password, String firstName, String lastName, long phoneNumber, String email, String payMethod                   -->
+
+</beans>
+<!---->
