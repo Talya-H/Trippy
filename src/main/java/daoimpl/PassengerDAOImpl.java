@@ -18,7 +18,7 @@ public class PassengerDAOImpl implements PassengerDAO {
             session.save(passenger);
             tx.commit();
             session.close();
-            System.out.println("");
+            System.out.println();
 
         } catch (HibernateException e) {
             if (tx != null)
@@ -146,7 +146,7 @@ public class PassengerDAOImpl implements PassengerDAO {
     public int findPassengerIDfromUsername(String username) {
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction tx = session.beginTransaction();
-        List PassengerbyUser = null;
+        List PassengerbyUser;
         int PASSENGERID = 0;
         try {
 

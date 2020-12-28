@@ -16,8 +16,8 @@ import java.util.Properties;
 
 public class AccountModificationEmailsDAOImpl implements AccountModificationEmailsDAO {
 
-    DriverDAO daoD = new DriverDAOImpl();
-    PassengerDAO daoP = new PassengerDAOImpl();
+    final DriverDAO daoD = new DriverDAOImpl();
+    final PassengerDAO daoP = new PassengerDAOImpl();
     
     public AccountModificationEmailsDAOImpl() {
     }

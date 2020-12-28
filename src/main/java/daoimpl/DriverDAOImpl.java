@@ -34,7 +34,7 @@ public class DriverDAOImpl implements DriverDAO {
             session.save(driver);
             tx.commit();
             session.close();
-            System.out.println("");
+            System.out.println();
 
         } catch (HibernateException e) {
             if (tx != null)
@@ -169,7 +169,7 @@ public class DriverDAOImpl implements DriverDAO {
     public int findDriverIDfromUsername(String username) {
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction tx = session.beginTransaction();
-        List DriverbyUser = null;
+        List DriverbyUser;
         int DRIVERID = 0;
         try {
 

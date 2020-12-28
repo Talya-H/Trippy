@@ -17,8 +17,8 @@ import users.Driver;
 @Controller
 public class driverDelete {
 
-    DriverService daoServiceDriver = new DriverServiceImpl(new DriverDAOImpl());
-    AccountModificationEmailsService accModEmail = new AccountModificationEmailsServiceImpl(new AccountModificationEmailsDAOImpl());
+    final DriverService daoServiceDriver = new DriverServiceImpl(new DriverDAOImpl());
+    final AccountModificationEmailsService accModEmail = new AccountModificationEmailsServiceImpl(new AccountModificationEmailsDAOImpl());
 
     @RequestMapping(value = "/DeleteDriverRequest", method = RequestMethod.GET)
     public ModelAndView deleteDriver(@RequestParam("x") int id) {

@@ -10,10 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc6_g1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/daoimpl/DriverDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/daoimpl/DriverDAOImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/daoimpl/PassengerDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/daoimpl/PassengerDAOImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/driverDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/driverDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/daoimpl/AccountModificationEmailsDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoimpl/AccountModificationEmailsDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/daoimpl/DriverDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoimpl/DriverDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/daoimpl/PassengerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoimpl/PassengerDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +107,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2554439" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -444,7 +446,7 @@
       <workItem from="1609026416690" duration="655000" />
       <workItem from="1609096001401" duration="480000" />
       <workItem from="1609101837553" duration="23000" />
-      <workItem from="1609101872944" duration="1489000" />
+      <workItem from="1609101872944" duration="2892000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1609096130152</created>
@@ -460,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609096416095</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1609113832583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609113832583</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
