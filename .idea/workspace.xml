@@ -10,11 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/target/test-classes/daoimpl/DriverDAOImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/daoimpl/PassengerDAOImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/daoimpl/TripDAOImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/driverDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/driverDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daoimpl/AccountModificationEmailsDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoimpl/AccountModificationEmailsDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daoimpl/DriverDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoimpl/DriverDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daoimpl/PassengerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoimpl/PassengerDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trippy.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2554439" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -140,7 +140,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PassengerDAOImplTest">
+  <component name="RunManager" selected="Tomcat Server.Trippy">
     <configuration name="run" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intial.run" />
       <module name="Trippy" />
@@ -446,7 +446,7 @@
       <workItem from="1609026416690" duration="655000" />
       <workItem from="1609096001401" duration="480000" />
       <workItem from="1609101837553" duration="23000" />
-      <workItem from="1609101872944" duration="2892000" />
+      <workItem from="1609101872944" duration="4039000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1609096130152</created>
@@ -469,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609113832583</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <created>1609115489437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609115489437</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,5 +507,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
