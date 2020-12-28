@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="First commit" />
+    <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc6_g1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/daoimpl/DriverDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/daoimpl/DriverDAOImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/daoimpl/PassengerDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/daoimpl/PassengerDAOImplTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,39 +95,40 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6_g.jar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2554439" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="daoimpl" />
-      <recent name="intial" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Hacke\Documents\IdeaProjects\Final Project\Trippy\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\Hacke\Documents\IdeaProjects\Final Project\Trippy\src\main\webapp" />
       <recent name="C:\Users\Hacke\Documents\IdeaProjects\Final Project\Trippy\src\main" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="controllers" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Hacke\IdeaProjects\Final Project\Trippy\src\main\webapp\WEB-INF\css" />
       <recent name="C:\Users\Hacke\IdeaProjects\Final Project\Trippy\src\main\webapp\WEB-INF\jsp" />
       <recent name="C:\Users\Hacke\IdeaProjects\Final Project\Trippy\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\Hacke\Documents\IdeaProjects\Final Project\Trippy\src\main\webapp" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="daoimpl" />
+      <recent name="intial" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,7 +138,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Trippy">
+  <component name="RunManager" selected="JUnit.PassengerDAOImplTest">
     <configuration name="run" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intial.run" />
       <module name="Trippy" />
@@ -152,6 +158,36 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DriverDAOImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trippy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="daoimpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="daoimpl" />
+      <option name="MAIN_CLASS_NAME" value="daoimpl.DriverDAOImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerDAOImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trippy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="daoimpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="daoimpl" />
+      <option name="MAIN_CLASS_NAME" value="daoimpl.PassengerDAOImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,38 +234,6 @@
       <option name="PACKAGE_NAME" value="daoimpl" />
       <option name="MAIN_CLASS_NAME" value="daoimpl.TripDAOImplTest" />
       <option name="METHOD_NAME" value="driverNewTripAlert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TripDAOImplTest.findByDriverId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Trippy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="daoimpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="daoimpl" />
-      <option name="MAIN_CLASS_NAME" value="daoimpl.TripDAOImplTest" />
-      <option name="METHOD_NAME" value="findByDriverId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TripDAOImplTest.findByPassengerId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Trippy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="daoimpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="daoimpl" />
-      <option name="MAIN_CLASS_NAME" value="daoimpl.TripDAOImplTest" />
-      <option name="METHOD_NAME" value="findByPassengerId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -348,19 +352,19 @@
     <list>
       <item itemvalue="Application.run" />
       <item itemvalue="JUnit.TripDAOImplTest" />
-      <item itemvalue="JUnit.TripDAOImplTest.findByPassengerId" />
-      <item itemvalue="JUnit.TripDAOImplTest.findByDriverId" />
       <item itemvalue="JUnit.TestSignin" />
       <item itemvalue="JUnit.TripDAOImplTest.driverNewTripAlert" />
       <item itemvalue="Tomcat Server.Trippy" />
+      <item itemvalue="JUnit.DriverDAOImplTest" />
+      <item itemvalue="JUnit.PassengerDAOImplTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PassengerDAOImplTest" />
+        <item itemvalue="JUnit.DriverDAOImplTest" />
         <item itemvalue="JUnit.TripDAOImplTest" />
         <item itemvalue="JUnit.TripDAOImplTest.driverNewTripAlert" />
         <item itemvalue="JUnit.TestSignin" />
-        <item itemvalue="JUnit.TripDAOImplTest.findByDriverId" />
-        <item itemvalue="JUnit.TripDAOImplTest.findByPassengerId" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +442,9 @@
       <workItem from="1608830330857" duration="9471000" />
       <workItem from="1608941885858" duration="986000" />
       <workItem from="1609026416690" duration="655000" />
-      <workItem from="1609096001401" duration="336000" />
+      <workItem from="1609096001401" duration="480000" />
+      <workItem from="1609101837553" duration="23000" />
+      <workItem from="1609101872944" duration="1489000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1609096130152</created>
@@ -447,15 +453,34 @@
       <option name="project" value="LOCAL" />
       <updated>1609096130152</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1609096416095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609096416095</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

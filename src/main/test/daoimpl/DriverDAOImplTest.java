@@ -1,5 +1,6 @@
 package daoimpl;
 
+import dao.AccountModificationEmailsDAO;
 import dao.DriverDAO;
 import org.hibernate.tool.schema.internal.exec.ScriptTargetOutputToFile;
 import org.junit.jupiter.api.Test;
@@ -16,9 +17,13 @@ class DriverDAOImplTest {
 
         DriverDAO daoD = new DriverDAOImpl();
 
-        Driver driver1 = new Driver("jojo", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
+        AccountModificationEmailsDAO daoEmail = new AccountModificationEmailsDAOImpl();
+
+        Driver driver1 = new Driver("jojo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Tesla 3");
 
         daoD.insert(driver1);
+
+        daoEmail.driverRegistrationConfirmationEmail(1);
 
 
 
@@ -29,12 +34,15 @@ class DriverDAOImplTest {
     public void delete() {
 
         DriverDAO daoD = new DriverDAOImpl();
+        AccountModificationEmailsDAO daoEmail = new AccountModificationEmailsDAOImpl();
 
-        Driver driver2 = new Driver("jojo", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
-        Driver driver3 = new Driver("john", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
+        Driver driver2 = new Driver("jojo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Tesla 3");
+        Driver driver3 = new Driver("john", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Tesla 3");
 
         daoD.insert(driver2);
         daoD.insert(driver3);
+
+        daoEmail.driverAccountTerminationConfirmationEmail(2);
 
         daoD.delete(2);
 
@@ -45,7 +53,7 @@ class DriverDAOImplTest {
 
         DriverDAO daoD = new DriverDAOImpl();
 
-        Driver driver4 = new Driver("joella", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
+        Driver driver4 = new Driver("joella", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Tesla 3");
 
         Driver updateDriver = daoD.findById(1);
 
@@ -64,8 +72,8 @@ class DriverDAOImplTest {
     public void listDriver() {
         DriverDAO daoD = new DriverDAOImpl();
 
-        Driver driver5 = new Driver("jojo", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
-        Driver driver6 = new Driver("jojo", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
+        Driver driver5 = new Driver("jojo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Tesla 3");
+        Driver driver6 = new Driver("jojo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Tesla 3");
 
         daoD.insert(driver5);
         daoD.insert(driver6);
@@ -88,7 +96,7 @@ class DriverDAOImplTest {
 
         DriverDAO daoD = new DriverDAOImpl();
 
-        Driver driver9 = new Driver("jojo", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
+        Driver driver9 = new Driver("jojo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Tesla 3");
         daoD.insert(driver9);
 
         int RandomDriverID = daoD.retrieveRandomDriverId();
@@ -101,7 +109,7 @@ class DriverDAOImplTest {
 
         DriverDAO daoD = new DriverDAOImpl();
 
-        Driver driver7 = new Driver("jojo", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
+        Driver driver7 = new Driver("jojo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Tesla 3");
         daoD.insert(driver7);
 
         List DriverbyUsername = daoD.findByUsername("jojo");
@@ -114,7 +122,7 @@ class DriverDAOImplTest {
 
         DriverDAO daoD = new DriverDAOImpl();
 
-        Driver driver8 = new Driver("jojo", "jo", "jon", "dor", 8598958, "T", "Tesla 3");
+        Driver driver8 = new Driver("jojo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Tesla 3");
         daoD.insert(driver8);
 
         int Id = daoD.findDriverIDfromUsername("jojo");

@@ -1,5 +1,6 @@
 package daoimpl;
 
+import dao.AccountModificationEmailsDAO;
 import dao.PassengerDAO;
 import org.junit.jupiter.api.Test;
 import users.Passenger;
@@ -15,9 +16,13 @@ class PassengerDAOImplTest {
 
         PassengerDAO daoP = new PassengerDAOImpl();
 
-        Passenger pass1 = new Passenger("jo", "jo", "jon", "dor", 8598958, "T", "Visa");
+        AccountModificationEmailsDAO daoEmail = new AccountModificationEmailsDAOImpl();
+
+        Passenger pass1 = new Passenger("jo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Visa");
 
         daoP.insert(pass1);
+
+        daoEmail.passengerRegistrationConfirmationEmail(1);
     }
 
     @Test
@@ -25,11 +30,15 @@ class PassengerDAOImplTest {
 
         PassengerDAO daoP = new PassengerDAOImpl();
 
-        Passenger pass2 = new Passenger("jo", "jo", "jon", "dor", 8598958, "T", "Visa");
+        AccountModificationEmailsDAO daoEmail = new AccountModificationEmailsDAOImpl();
+
+        Passenger pass2 = new Passenger("jo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Visa");
 
         Passenger deletePassenger = daoP.findById(2);
 
         System.out.println("Passenger to be deleted found using find by id method " + deletePassenger);
+
+        daoEmail.passengerAccountTerminationConfirmationEmail(2);
 
         daoP.delete(2);
     }
@@ -39,7 +48,7 @@ class PassengerDAOImplTest {
 
         PassengerDAO daoP = new PassengerDAOImpl();
 
-        Passenger pass3 = new Passenger("jo", "jo", "jon", "dor", 8598958, "T", "Visa");
+        Passenger pass3 = new Passenger("jo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Visa");
 
         daoP.findById(3);
     }
@@ -49,11 +58,11 @@ class PassengerDAOImplTest {
 
         PassengerDAO daoP = new PassengerDAOImpl();
 
-        Passenger pass4 = new Passenger("jo", "jo", "jon", "dor", 8598958, "T", "Visa");
+        Passenger pass4 = new Passenger("jo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Visa");
 
-        Passenger pass5 = new Passenger("jo", "jo", "jon", "dor", 8598958, "T", "Visa");
+        Passenger pass5 = new Passenger("jo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Visa");
 
-        Passenger pass6 = new Passenger("jo", "jo", "jon", "dor", 8598958, "T", "Visa");
+        Passenger pass6 = new Passenger("jo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Visa");
 
         daoP.insert(pass4);
         daoP.insert(pass5);
@@ -65,7 +74,7 @@ class PassengerDAOImplTest {
 
         PassengerDAO daoP = new PassengerDAOImpl();
 
-        Passenger pass7 = new Passenger("jo", "jo", "jon", "dor", 8598958, "T", "Visa");
+        Passenger pass7 = new Passenger("jo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Visa");
 
         daoP.insert(pass7);
 
@@ -85,7 +94,7 @@ class PassengerDAOImplTest {
 
         PassengerDAO daoP = new PassengerDAOImpl();
 
-        Passenger pass8 = new Passenger("jo", "jo", "jon", "dor", 8598958, "T", "Visa");
+        Passenger pass8 = new Passenger("jo", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Visa");
 
         daoP.insert(pass8);
 
@@ -98,7 +107,7 @@ class PassengerDAOImplTest {
 
         PassengerDAO daoP = new PassengerDAOImpl();
 
-        Passenger pass9 = new Passenger("reil", "jo", "jon", "dor", 8598958, "T", "Visa");
+        Passenger pass9 = new Passenger("reil", "jo", "jon", "dor", 8598958, "hackett.talya@gmail.com", "Visa");
 
         daoP.insert(pass9);
 
