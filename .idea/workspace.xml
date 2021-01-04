@@ -9,30 +9,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/61d5b855-e3ec-4244-9687-726057cc6fe7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/61d5b855-e3ec-4244-9687-726057cc6fe7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daoimpl/AccountModificationEmailsDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoimpl/AccountModificationEmailsDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/mainTheme/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/registrationPages.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/registrationPageTheme/css/registrationPages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/signInpages.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/signinPageTheme/css/signInpages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/driverRegistration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/driverRegistration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/passengerRegistration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/passengerRegistration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trippy.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/daoimpl/AccountModificationEmailsDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/daoimpl/AccountModificationEmailsDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/css/registrationPages.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/css/signInpages.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/views/driverRegistration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/views/driverRegistration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/views/passengerRegistration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/views/passengerRegistration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trippy/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/daoimpl/AccountModificationEmailsDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/daoimpl/AccountModificationEmailsDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="tried to add css. The browser can't read it yet">
+      <change afterPath="$PROJECT_DIR$/src/main/test/daoimpl/AdminDAOImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AdminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/AdminDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/daoimpl/AdminDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoimpl/AdminDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,9 +57,9 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -159,7 +139,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Trippy">
+  <component name="RunManager" selected="JUnit.AdminDAOImplTest">
     <configuration name="run" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intial.run" />
       <module name="Trippy" />
@@ -182,6 +162,53 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminDAOImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trippy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="daoimpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="daoimpl" />
+      <option name="MAIN_CLASS_NAME" value="daoimpl.AdminDAOImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminDAOImplTest.deleteDriverAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trippy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="daoimpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="daoimpl" />
+      <option name="MAIN_CLASS_NAME" value="daoimpl.AdminDAOImplTest" />
+      <option name="METHOD_NAME" value="deleteDriverAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminDAOImplTest.deletePassengerAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trippy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="daoimpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="daoimpl" />
+      <option name="MAIN_CLASS_NAME" value="daoimpl.AdminDAOImplTest" />
+      <option name="METHOD_NAME" value="deletePassengerAccount" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,52 +239,6 @@
       <option name="PACKAGE_NAME" value="daoimpl" />
       <option name="MAIN_CLASS_NAME" value="daoimpl.PassengerDAOImplTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSignin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Trippy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="intial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="intial" />
-      <option name="MAIN_CLASS_NAME" value="intial.TestSignin" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TripDAOImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Trippy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="daoimpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="daoimpl" />
-      <option name="MAIN_CLASS_NAME" value="daoimpl.TripDAOImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TripDAOImplTest.driverNewTripAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Trippy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="daoimpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="daoimpl" />
-      <option name="MAIN_CLASS_NAME" value="daoimpl.TripDAOImplTest" />
-      <option name="METHOD_NAME" value="driverNewTripAlert" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -373,20 +354,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.run" />
-      <item itemvalue="JUnit.TripDAOImplTest" />
-      <item itemvalue="JUnit.TestSignin" />
-      <item itemvalue="JUnit.TripDAOImplTest.driverNewTripAlert" />
       <item itemvalue="JUnit.DriverDAOImplTest" />
       <item itemvalue="JUnit.PassengerDAOImplTest" />
       <item itemvalue="Tomcat Server.Trippy" />
+      <item itemvalue="JUnit.AdminDAOImplTest.deleteDriverAccount" />
+      <item itemvalue="JUnit.AdminDAOImplTest" />
+      <item itemvalue="JUnit.AdminDAOImplTest.deletePassengerAccount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdminDAOImplTest" />
+        <item itemvalue="JUnit.AdminDAOImplTest.deletePassengerAccount" />
+        <item itemvalue="JUnit.AdminDAOImplTest.deleteDriverAccount" />
         <item itemvalue="JUnit.PassengerDAOImplTest" />
         <item itemvalue="JUnit.DriverDAOImplTest" />
-        <item itemvalue="JUnit.TripDAOImplTest" />
-        <item itemvalue="JUnit.TripDAOImplTest.driverNewTripAlert" />
-        <item itemvalue="JUnit.TestSignin" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +450,7 @@
       <workItem from="1609101872944" duration="4053000" />
       <workItem from="1609304745338" duration="415000" />
       <workItem from="1609305494117" duration="2243000" />
-      <workItem from="1609722296550" duration="1749000" />
+      <workItem from="1609722296550" duration="2434000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1609096130152</created>
@@ -513,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609304864536</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tried to add css. The browser can't read it yet">
+      <created>1609724231879</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609724231879</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +522,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="tried to add css. The browser can't read it yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried to add css. The browser can't read it yet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
