@@ -4,7 +4,8 @@
 <html>
 <head>
     <title>Trippy</title>
-    <link href="WEB-INF/css/main.css">
+    <link href="WEB-INF/main/css/main.css">
+    <link href="<c:url value="resources/mainTheme/css/main.css" />" rel="stylesheet">
 </head>
 
 <body>

@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Driver Registration page</title>
-    <link href="../css/registrationPages.css">
+    <link href="../registrationPageTheme/css/registrationPages.css">
 </head>
 <body>
 <form:form action="FilledDriverRegistration" method="post" modelAttribute="D" >

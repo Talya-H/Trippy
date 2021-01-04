@@ -27974,12 +27974,14 @@
     </table>
     <table id="4016" parent="17" name="TRIPPY_DRIVER">
       <ObjectId>20068</ObjectId>
+      <Outdated>1</Outdated>
       <CreatedTimestamp>2020-12-22.17:22:10</CreatedTimestamp>
       <ModifiedTimestamp>2020-12-22.17:22:10</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="4017" parent="17" name="TRIPPY_PASSENGER">
       <ObjectId>20070</ObjectId>
+      <Outdated>1</Outdated>
       <CreatedTimestamp>2020-12-22.17:22:10</CreatedTimestamp>
       <ModifiedTimestamp>2020-12-22.17:22:10</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>

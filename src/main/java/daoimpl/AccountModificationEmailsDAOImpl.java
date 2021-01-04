@@ -52,7 +52,7 @@ public class AccountModificationEmailsDAOImpl implements AccountModificationEmai
             message.setFrom(new InternetAddress("talya.programmingprojects@gmail.com"));
             message.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse(driver.getEmail()));
-            message.setSubject("New Trip Alert");
+            message.setSubject("Registration Confirmation");
             message.setText("Hello, " + driver.getFirstName() + " " + driver.getLastName()
                     + "\n\n You've succesfully created your account on Trippy."
                     + "\n\n Use your username and password to sign in. "
@@ -96,7 +96,7 @@ public class AccountModificationEmailsDAOImpl implements AccountModificationEmai
             message.setFrom(new InternetAddress("talya.programmingprojects@gmail.com"));
             message.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse(passenger.getEmail()));
-            message.setSubject("Trip Confirmation Alert");
+            message.setSubject("Registration Confirmation");
             message.setText("Hello, " + passenger.getFirstName() + " " + passenger.getLastName()
                     + "\n\n You've succesfully created your account on Trippy."
                     + "\n\n Use your username and password to sign in. "
@@ -139,7 +139,7 @@ public class AccountModificationEmailsDAOImpl implements AccountModificationEmai
             message.setFrom(new InternetAddress("talya.programmingprojects@gmail.com"));
             message.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse(driver.getEmail()));
-            message.setSubject("New Trip Alert");
+            message.setSubject("Account Termination Confirmation");
             message.setText("Hello, " + driver.getFirstName() + " " + driver.getLastName()
                     + "\n\n We've closed your Trippy account at your request."
                     + "\n\n We're sorry to see you go. "
@@ -183,7 +183,7 @@ public class AccountModificationEmailsDAOImpl implements AccountModificationEmai
             message.setFrom(new InternetAddress("talya.programmingprojects@gmail.com"));
             message.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse(passenger.getEmail()));
-            message.setSubject("Trip Confirmation Alert");
+            message.setSubject("Account Termination Confirmation");
             message.setText("Hello, " + passenger.getFirstName() + " " + passenger.getLastName()
                     + "\n\n We've closed your Trippy account at your request."
                     + "\n\n We're sorry to see you go. "

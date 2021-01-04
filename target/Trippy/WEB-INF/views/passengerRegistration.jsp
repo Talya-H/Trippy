@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Passenger Registration page</title>
-    <link href="../css/registrationPages.css">
+    <link href="../registrationPageTheme/css/registrationPages.css">
 
 </head>
 <body>
