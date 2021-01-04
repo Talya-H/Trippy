@@ -34,7 +34,15 @@ public class run {
         daoP.insert(passenger1);
 
         Trip trip1 = (Trip) app.getBean("trip1");
+
+        int assignDriver = daoD.retrieveRandomDriverId();
+
+        System.out.println(assignDriver);
+
+        trip1.setDriverID(assignDriver);
+
         daoT.insert(trip1);
+
 
 //        DriverService daoServiceDriver = new DriverServiceImpl(new DriverDAOImpl());
 //        TripService daoServiceTrip = new TripServiceImpl(new TripDAOImpl());

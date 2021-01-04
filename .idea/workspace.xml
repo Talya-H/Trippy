@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="tried to add css. The browser can't read it yet">
-      <change afterPath="$PROJECT_DIR$/src/main/test/daoimpl/AdminDAOImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AdminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/AdminDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daoimpl/AdminDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoimpl/AdminDAOImpl.java" afterDir="false" />
+    <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="added delete account permission to the admin user">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/intial/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/intial/run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/intial/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/intial/run.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AdminDAOImplTest">
+  <component name="RunManager" selected="Application.run">
     <configuration name="run" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intial.run" />
       <module name="Trippy" />
@@ -450,7 +450,7 @@
       <workItem from="1609101872944" duration="4053000" />
       <workItem from="1609304745338" duration="415000" />
       <workItem from="1609305494117" duration="2243000" />
-      <workItem from="1609722296550" duration="2434000" />
+      <workItem from="1609722296550" duration="4173000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1609096130152</created>
@@ -501,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609724231879</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added delete account permission to the admin user">
+      <created>1609724925140</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609724925140</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +530,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="commit" />
     <MESSAGE value="tried to add css. The browser can't read it yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="tried to add css. The browser can't read it yet" />
+    <MESSAGE value="added delete account permission to the admin user" />
+    <option name="LAST_COMMIT_MESSAGE" value="added delete account permission to the admin user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
