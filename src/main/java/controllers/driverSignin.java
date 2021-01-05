@@ -35,52 +35,56 @@ public class driverSignin {
 
     @RequestMapping(value = "/driverSignInFilled", method = RequestMethod.POST)
     public ModelAndView getSignInFormFilled(@ModelAttribute("DSignin") @RequestParam("username") String username,
-                                            @RequestParam("password") String password) {
+                                    @RequestParam("password") String password) {
 
-//        try {
+
+//        String tryUsername = username;
+//        String tryPassword = password;
 //
-//            ModelAndView model = new ModelAndView("driverSignInPage");
+//        int DriverId = daoServiceDriver.findDriverIDfromUsername(username);
 //
-//            String tryUsername = username;
-//            String tryPassword = password;
+//        Driver verifyDriver = daoServiceDriver.findById(DriverId);
+
+        ModelAndView model = null;
+
+//        if (!tryUsername.equals(verifyDriver.getUsername()) && !tryPassword.equals(verifyDriver.getPassword())) {
 //
-//            int DriverId = daoServiceDriver.findDriverIDfromUsername(username);
+//            model = new ModelAndView("driverSignInPage");
 //
-//            Driver verifyDriver = daoServiceDriver.findById(DriverId);
+//            String wrongCredentialsMessage = "Oops! Something's not adding up. Try again.";
 //
-//            if (!tryUsername.equals(verifyDriver.getUsername()) && !tryPassword.equals(verifyDriver.getPassword())) {
+//            model.addObject("wrongCredentialsMessage", wrongCredentialsMessage);
+//            model.addObject("DSignin", new Driver());
 //
-//                String wrongCredentialsMessage = "Oops! Something's not adding up. Try again.";
+//            System.out.println("sign in error");
 //
-//                model.addObject("wrongCredentialsMessage", wrongCredentialsMessage);
-//                model.addObject("DSignin", new Driver());
+//            return model;
 //
-//                return model;
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
+//
+//        } else if (tryUsername.equals(verifyDriver.getUsername()) && tryPassword.equals(verifyDriver.getPassword())) {
+
+            model = new ModelAndView("driverPortal");
+
+            List DriverInfo = daoServiceDriver.findByUsername(username);
+
+            System.out.println(DriverInfo);
+
+            int DriverId = daoServiceDriver.findDriverIDfromUsername(username);
+
+            System.out.println(DriverId);
+
+            List TripList = daoServiceTrip.findByDriverId(DriverId);
+
+            System.out.println(TripList);
+
+
+            model.addObject("Driver", DriverInfo);
+            model.addObject("Trip", TripList);
+
+            System.out.println("sign in success");
+
 //        }
 
-
-        ModelAndView model = new ModelAndView("driverPortal");
-
-        List DriverInfo = daoServiceDriver.findByUsername(username);
-
-        System.out.println(DriverInfo);
-
-        int DriverId = daoServiceDriver.findDriverIDfromUsername(username);
-
-        System.out.println(DriverId);
-
-        List TripList = daoServiceTrip.findByDriverId(DriverId);
-
-        System.out.println(TripList);
-
-
-        model.addObject("Driver", DriverInfo);
-        model.addObject("Trip", TripList);
-
-        return model;
-
+            return model;
     }
 }

@@ -9,10 +9,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="added delete account permission to the admin user">
+    <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="added random driver to initial  test trip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/intial/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/intial/run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/intial/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/intial/run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/driverSignin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/driverSignin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trippy.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/controllers/driverSignin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/controllers/driverSignin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/dao/AdminDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/dao/AdminDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/daoimpl/AdminDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/daoimpl/AdminDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/intial/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/intial/run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/driverSignin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/driverSignin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +105,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6_g.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -139,7 +144,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.run">
+  <component name="RunManager" selected="Tomcat Server.Trippy">
     <configuration name="run" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intial.run" />
       <module name="Trippy" />
@@ -149,19 +154,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,10 +348,10 @@
       <item itemvalue="Application.run" />
       <item itemvalue="JUnit.DriverDAOImplTest" />
       <item itemvalue="JUnit.PassengerDAOImplTest" />
-      <item itemvalue="Tomcat Server.Trippy" />
       <item itemvalue="JUnit.AdminDAOImplTest.deleteDriverAccount" />
       <item itemvalue="JUnit.AdminDAOImplTest" />
       <item itemvalue="JUnit.AdminDAOImplTest.deletePassengerAccount" />
+      <item itemvalue="Tomcat Server.Trippy" />
     </list>
     <recent_temporary>
       <list>
@@ -450,7 +442,9 @@
       <workItem from="1609101872944" duration="4053000" />
       <workItem from="1609304745338" duration="415000" />
       <workItem from="1609305494117" duration="2243000" />
-      <workItem from="1609722296550" duration="4173000" />
+      <workItem from="1609722296550" duration="5571000" />
+      <workItem from="1609728269685" duration="2166000" />
+      <workItem from="1609803298728" duration="2023000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1609096130152</created>
@@ -508,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609724925140</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added random driver to initial  test trip">
+      <created>1609726804239</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609726804239</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +532,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="tried to add css. The browser can't read it yet" />
     <MESSAGE value="added delete account permission to the admin user" />
-    <option name="LAST_COMMIT_MESSAGE" value="added delete account permission to the admin user" />
+    <MESSAGE value="added random driver to initial  test trip" />
+    <option name="LAST_COMMIT_MESSAGE" value="added random driver to initial  test trip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
