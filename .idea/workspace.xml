@@ -9,15 +9,31 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="added random driver to initial  test trip">
+    <list default="true" id="5fdbd6bc-e2fd-4300-bfb1-beb5b23828ce" name="Default Changelist" comment="tried to create validation for the username/ password : failed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/adminSignin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminPortal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminSignInPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/61d5b855-e3ec-4244-9687-726057cc6fe7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/61d5b855-e3ec-4244-9687-726057cc6fe7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/driverSignin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/driverSignin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AdminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/AdminDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/daoimpl/AdminDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoimpl/AdminDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/daoimpl/DriverDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoimpl/DriverDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/intial/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/intial/run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/users/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/daoimpl/AdminDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/daoimpl/AdminDAOImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Trippy.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/controllers/driverSignin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/controllers/driverSignin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/dao/AdminDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/dao/AdminDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/daoimpl/AdminDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/daoimpl/AdminDAOImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/intial/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Trippy/WEB-INF/classes/intial/run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/driverSignin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/driverSignin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/AdminDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/AdminDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/daoimpl/AdminDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/daoimpl/AdminDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/intial/run.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/intial/run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/users/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/users/Admin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +76,11 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="Jsp File" />
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -158,6 +174,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminDAOImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Trippy" />
       <extension name="coverage">
@@ -205,7 +234,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverDAOImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminDAOImplTest.findByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Trippy" />
       <extension name="coverage">
         <pattern>
@@ -214,8 +243,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="daoimpl" />
-      <option name="MAIN_CLASS_NAME" value="daoimpl.DriverDAOImplTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="daoimpl.AdminDAOImplTest" />
+      <option name="METHOD_NAME" value="findByUsername" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -346,20 +376,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.run" />
-      <item itemvalue="JUnit.DriverDAOImplTest" />
       <item itemvalue="JUnit.PassengerDAOImplTest" />
       <item itemvalue="JUnit.AdminDAOImplTest.deleteDriverAccount" />
       <item itemvalue="JUnit.AdminDAOImplTest" />
       <item itemvalue="JUnit.AdminDAOImplTest.deletePassengerAccount" />
       <item itemvalue="Tomcat Server.Trippy" />
+      <item itemvalue="JUnit.AdminDAOImplTest.findByUsername" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdminDAOImplTest.findByUsername" />
         <item itemvalue="JUnit.AdminDAOImplTest" />
         <item itemvalue="JUnit.AdminDAOImplTest.deletePassengerAccount" />
         <item itemvalue="JUnit.AdminDAOImplTest.deleteDriverAccount" />
         <item itemvalue="JUnit.PassengerDAOImplTest" />
-        <item itemvalue="JUnit.DriverDAOImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +474,7 @@
       <workItem from="1609305494117" duration="2243000" />
       <workItem from="1609722296550" duration="5571000" />
       <workItem from="1609728269685" duration="2166000" />
-      <workItem from="1609803298728" duration="2023000" />
+      <workItem from="1609803298728" duration="6413000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1609096130152</created>
@@ -509,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609726804239</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="tried to create validation for the username/ password : failed">
+      <created>1609805705646</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609805705646</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +570,8 @@
     <MESSAGE value="tried to add css. The browser can't read it yet" />
     <MESSAGE value="added delete account permission to the admin user" />
     <MESSAGE value="added random driver to initial  test trip" />
-    <option name="LAST_COMMIT_MESSAGE" value="added random driver to initial  test trip" />
+    <MESSAGE value="tried to create validation for the username/ password : failed" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried to create validation for the username/ password : failed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

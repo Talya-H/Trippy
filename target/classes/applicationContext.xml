@@ -30,7 +30,10 @@
         <constructor-arg value ="test"/>
     </bean>
 
-<!--    String username, String password, String firstName, String lastName, long phoneNumber, String email, String payMethod                   -->
+    <bean id="admin" class="users.Admin">
+        <constructor-arg value ="1"/>
+        <constructor-arg value ="admin"/>
+        <constructor-arg value="admin"/>
+    </bean>
 
 </beans>
-<!---->

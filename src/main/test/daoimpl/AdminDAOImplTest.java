@@ -24,4 +24,10 @@ class AdminDAOImplTest {
         AdminDAO daoA = new AdminDAOImpl();
         daoA.deleteTripRequest(3);
     }
+
+    @Test
+    void findByUsername() {
+        AdminDAO daoA = new AdminDAOImpl();
+        daoA.findByUsername("admin");
+    }
 }

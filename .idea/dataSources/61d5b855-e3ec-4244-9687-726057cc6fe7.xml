@@ -27968,6 +27968,7 @@
     </sequence>
     <table id="4015" parent="17" name="TRIPPY_ADMIN">
       <ObjectId>20066</ObjectId>
+      <Outdated>1</Outdated>
       <CreatedTimestamp>2020-12-22.17:22:10</CreatedTimestamp>
       <ModifiedTimestamp>2020-12-22.17:22:10</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>

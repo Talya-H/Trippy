@@ -153,7 +153,6 @@ public class DriverDAOImpl implements DriverDAO {
                 System.out.println("Score: " + driver.getScore());
 
             }
-
             tx.commit();
             session.close();
         } catch (HibernateException e) {

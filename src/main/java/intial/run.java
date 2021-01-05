@@ -1,8 +1,10 @@
 package intial;
 
+import dao.AdminDAO;
 import dao.DriverDAO;
 import dao.PassengerDAO;
 import dao.TripDAO;
+import daoimpl.AdminDAOImpl;
 import daoimpl.DriverDAOImpl;
 import daoimpl.PassengerDAOImpl;
 import daoimpl.TripDAOImpl;
@@ -13,6 +15,7 @@ import services.DriverService;
 import services.DriverServiceImpl;
 import services.TripService;
 import services.TripServiceImpl;
+import users.Admin;
 import users.Driver;
 import users.Passenger;
 
@@ -26,6 +29,7 @@ public class run {
         DriverDAO daoD = new DriverDAOImpl();
         PassengerDAO daoP = new PassengerDAOImpl();
         TripDAO daoT = new TripDAOImpl();
+        AdminDAO daoA = new AdminDAOImpl();
 
         Driver driver1 = (Driver) app.getBean("driver1");
         daoD.insert(driver1);
@@ -42,6 +46,9 @@ public class run {
         trip1.setDriverID(assignDriver);
 
         daoT.insert(trip1);
+
+        Admin admin = (Admin) app.getBean("admin");
+        daoA.insertAdmin(admin);
 
 
 //        DriverService daoServiceDriver = new DriverServiceImpl(new DriverDAOImpl());
